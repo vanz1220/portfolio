@@ -265,12 +265,12 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: rgba(17, 17, 17, 0);
     content: "what I know and what I do";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: rgb(253, 0, 0);
+    background: #222;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -681,5 +681,11 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .services .title::after,
+    .teams .title::after{
+    background: rgba(17, 17, 17, 0);
+    content: "what I know and what I do";
+    font-size: 15px;
     }
 }
