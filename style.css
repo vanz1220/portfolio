@@ -684,8 +684,9 @@ footer span a:hover{
     }
     .services .title::after,
     .teams .title::after{
-    background: rgba(17, 17, 17, 0);
+    background: rgb(0, 0, 0);
     content: "what I know and what I do";
     font-size: 15px;
+    margin-top: 10px;
     }
 }
