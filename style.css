@@ -686,7 +686,7 @@ footer span a:hover{
     .teams .title::after{
     background: rgb(17 17 17);
     content: "what I know and what I do";
-    font-size: 15px;
-    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 4px;
     }
 }
