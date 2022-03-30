@@ -265,7 +265,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: rgba(17, 17, 17, 0);
+    background: rgb(17, 17, 17);
     content: "what I know and what I do";
 }
 .services .serv-content .card{
